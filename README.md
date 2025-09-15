@@ -1,82 +1,4 @@
 # 💪 Hercules
-
-[![PyPI Total Downloads](https://static.pepy.tech/badge/testzeus-hercules)](https://pepy.tech/projects/testzeus-hercules)
-![Docker Pulls](https://img.shields.io/docker/pulls/testzeus/hercules)
-[![CI Test](https://github.com/test-zeus-ai/testzeus-hercules/actions/workflows/main-test.yml/badge.svg)](https://github.com/test-zeus-ai/testzeus-hercules/actions/workflows/main-test.yml)
-[![Slack](https://img.shields.io/badge/slack-TestZeus-brightgreen.svg?logo=slack)](https://join.slack.com/t/testzeuscommunityhq/shared_invite/zt-376oeo99x-3RAWe_C0H7x9zP0rtACcPA)
-
-Testing modern web applications can be difficult, with frequent changes and complex features making it hard to keep up. That's where **Hercules** comes in. Hercules is the world's first open-source testing agent, built to handle the toughest testing tasks so you don't have to. It turns simple, easy-to-write Gherkin steps into fully automated **end to end** tests—no coding skills needed. Whether you're working with tricky platforms like Salesforce or running tests in your CI/CD pipeline, Hercules adapts to your needs and takes care of the details. With Hercules, testing becomes simple, reliable, and efficient, helping teams everywhere deliver better software. Here's a quick demo of lead creation using natural english language test (without any code):
-
-![HerculesUsage](statics/LeadcreationDemo.gif)
-
-
-
-As you saw, using Hercules is as simple as feeding in your Gherkin features, and getting the results:
-![HerculesUsage](statics/assets/hercules.svg)
-
-At [TestZeus](www.testzeus.com), we believe that **trustworthy and open-source code** is the backbone of innovation. That's why we've built Hercules to be transparent, reliable, and community-driven.
-
-Our mission? To **democratize and disrupt test automation**, making top-tier testing accessible to everyone, not just the elite few. No more gatekeeping—everyone deserves a hero on their testing team!
-
-### Video Tutorials: [@TestZeus](https://www.youtube.com/@TestZeus)
----
-
-#### 🚀 **Getting Started with TestZeus Hercules**
-- **Introduction to TestZeus Hercules**  
-  Learn about the core features of TestZeus Hercules and how it can streamline end-to-end testing for your projects. 
-   [![Autonomous execution with Hercules](statics/assets/introvideothumbnail2.png)](https://youtu.be/_m_NDjM6aZ0?si=ArtVKz8uSgGWTcAK)
-
-- **Installation and Setup Guide**  
-  Step-by-step instructions for installing and configuring TestZeus Hercules in your environment.  
-  _[Watch now](https://youtu.be/9D-SZGoDrfc?si=GL0IArWkB1ZgBdx5)_
-
----
-
-#### 🧪 **Writing and Executing Test Cases**
-- **Creating BDD Test Cases**  
-  Learn how to write Behavior-Driven Development (BDD) test cases for Hercules and use dynamic testdata.  
-  _[Watch now](https://www.youtube.com/watch?v=yJD0cZ7Bx6Q&t)_
-
----
-
-#### 🌐 **Integrations and Advanced Features**
-- **Testing Multilingual content**  
-  Learn how Hercules interacts with web browsers to perform Testing on Multilingual content via Multilingual testcase.  
-  _[Watch now](https://youtu.be/vI9iGSqKpGA?si=6NGAvKnwFboSyHT2)_
----
-
-#### 🛠️ **Customization and Community Tools**
-- **Enhancing Hercules with Community-Driven Tools**  
-  Discover how to customize Hercules and incorporate additional tools provided by the community.  
-  _[Watch now](https://youtu.be/C8hUy5leRF0?si=yVMpZ7WFcI01BoI3)_
----
-
-#### 🛠️ **API Testing**
-- **API testing all the way, new ways to do end to end**  
-  _[Watch now](https://youtu.be/qMt89DQH6LQ?si=lcSJbKOCaqqUGeQ8)_
----
-
-#### 🛠️ **Security Testing**
-- **Security Testing done end to end**  
-  _[Watch now](https://youtu.be/o6MmfTakIh4?si=JL8iu4e3i85SWrxU)_
-
-#### 🛠️ **Visual validations and assertions**
-- **Using vision capabilities to check snapshots and components on the application**  
-  _[Watch now](https://youtu.be/EKzllLEguhw)_
-
-
----
-
-## ⚙️ Installation and Usage
-
-Hercules offers multiple ways to get started, catering to different user preferences and requirements.
-If you are new to the Python ecosystem and don't know where to begin, dont worry and read the footnotes on understanding the basics.
-
-
-For a quick taste of the solution, you can try the notebook here: 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YiZsXem1POTwkcr17QqflXnihhuSqwM2?usp=sharing)
-- **Note**: Colab might ask you to restart the session as python3.11 and some libs are installed during the installation of testzeus-hercules. Please restart the session if required and continue the execution. Also , we recommend one of the approaches below for getting the full flavor of the solution. 
-
 ### Approach 1: Using PyPI Package
 
 #### Installation
@@ -392,6 +314,122 @@ For the hardcore enthusiasts, you can use Hercules via the source code to get a 
 
 For those who want a fully automated setup experience on Linux/macOS environments, we provide a helper_script.sh. This script installs Python 3.11 (if needed), creates a virtual environment, installs TestZeus Hercules, and sets up the base project directories in an opt folder.
 
+### Understanding `agents_llm_config-example.json`
+
+- It's a list of configurations of LLMs that you want to provide to the agent.
+
+- Example:
+
+  ```json
+  {
+    "anthropic": {
+		"planner_agent": {
+			"model_name": "claude-3-5-haiku-latest",
+			"model_api_key": "",
+			"model_api_type": "anthropic",
+            "llm_config_params": {
+                "cache_seed": null,
+                "temperature": 0.0,
+                "seed":12345
+            }
+		},
+		"nav_agent": {
+			"model_name": "claude-3-5-haiku-latest",
+			"model_api_key": "",
+			"model_api_type": "anthropic",
+            "llm_config_params": {
+                "cache_seed": null,
+                "temperature": 0.0,
+                "seed":12345
+            }
+		}
+    }
+  }
+  ```
+
+- The key is the name of the spec that is passed in `AGENTS_LLM_CONFIG_FILE_REF_KEY`, whereas the Hercules information is passed in sub-dicts `planner_agent` and `nav_agent`.
+
+- **Note**: This option should be ignored until you are sure what you are doing. Discuss with us while playing around with these options in our Slack communication. Join us at our [Slack](https://join.slack.com/t/testzeuscommunityhq/shared_invite/zt-376oeo99x-3RAWe_C0H7x9zP0rtACcPA)
+
+---
+
+[![PyPI Total Downloads](https://static.pepy.tech/badge/testzeus-hercules)](https://pepy.tech/projects/testzeus-hercules)
+![Docker Pulls](https://img.shields.io/docker/pulls/testzeus/hercules)
+[![CI Test](https://github.com/test-zeus-ai/testzeus-hercules/actions/workflows/main-test.yml/badge.svg)](https://github.com/test-zeus-ai/testzeus-hercules/actions/workflows/main-test.yml)
+[![Slack](https://img.shields.io/badge/slack-TestZeus-brightgreen.svg?logo=slack)](https://join.slack.com/t/testzeuscommunityhq/shared_invite/zt-376oeo99x-3RAWe_C0H7x9zP0rtACcPA)
+
+Testing modern web applications can be difficult, with frequent changes and complex features making it hard to keep up. That's where **Hercules** comes in. Hercules is the world's first open-source testing agent, built to handle the toughest testing tasks so you don't have to. It turns simple, easy-to-write Gherkin steps into fully automated **end to end** tests—no coding skills needed. Whether you're working with tricky platforms like Salesforce or running tests in your CI/CD pipeline, Hercules adapts to your needs and takes care of the details. With Hercules, testing becomes simple, reliable, and efficient, helping teams everywhere deliver better software. Here's a quick demo of lead creation using natural english language test (without any code):
+
+![HerculesUsage](statics/LeadcreationDemo.gif)
+
+
+
+As you saw, using Hercules is as simple as feeding in your Gherkin features, and getting the results:
+![HerculesUsage](statics/assets/hercules.svg)
+
+At [TestZeus](www.testzeus.com), we believe that **trustworthy and open-source code** is the backbone of innovation. That's why we've built Hercules to be transparent, reliable, and community-driven.
+
+Our mission? To **democratize and disrupt test automation**, making top-tier testing accessible to everyone, not just the elite few. No more gatekeeping—everyone deserves a hero on their testing team!
+
+### Video Tutorials: [@TestZeus](https://www.youtube.com/@TestZeus)
+---
+
+#### 🚀 **Getting Started with TestZeus Hercules**
+- **Introduction to TestZeus Hercules**  
+  Learn about the core features of TestZeus Hercules and how it can streamline end-to-end testing for your projects. 
+   [![Autonomous execution with Hercules](statics/assets/introvideothumbnail2.png)](https://youtu.be/_m_NDjM6aZ0?si=ArtVKz8uSgGWTcAK)
+
+- **Installation and Setup Guide**  
+  Step-by-step instructions for installing and configuring TestZeus Hercules in your environment.  
+  _[Watch now](https://youtu.be/9D-SZGoDrfc?si=GL0IArWkB1ZgBdx5)_
+
+---
+
+#### 🧪 **Writing and Executing Test Cases**
+- **Creating BDD Test Cases**  
+  Learn how to write Behavior-Driven Development (BDD) test cases for Hercules and use dynamic testdata.  
+  _[Watch now](https://www.youtube.com/watch?v=yJD0cZ7Bx6Q&t)_
+
+---
+
+#### 🌐 **Integrations and Advanced Features**
+- **Testing Multilingual content**  
+  Learn how Hercules interacts with web browsers to perform Testing on Multilingual content via Multilingual testcase.  
+  _[Watch now](https://youtu.be/vI9iGSqKpGA?si=6NGAvKnwFboSyHT2)_
+---
+
+#### 🛠️ **Customization and Community Tools**
+- **Enhancing Hercules with Community-Driven Tools**  
+  Discover how to customize Hercules and incorporate additional tools provided by the community.  
+  _[Watch now](https://youtu.be/C8hUy5leRF0?si=yVMpZ7WFcI01BoI3)_
+---
+
+#### 🛠️ **API Testing**
+- **API testing all the way, new ways to do end to end**  
+  _[Watch now](https://youtu.be/qMt89DQH6LQ?si=lcSJbKOCaqqUGeQ8)_
+---
+
+#### 🛠️ **Security Testing**
+- **Security Testing done end to end**  
+  _[Watch now](https://youtu.be/o6MmfTakIh4?si=JL8iu4e3i85SWrxU)_
+
+#### 🛠️ **Visual validations and assertions**
+- **Using vision capabilities to check snapshots and components on the application**  
+  _[Watch now](https://youtu.be/EKzllLEguhw)_
+
+
+---
+
+## ⚙️ Installation and Usage
+
+Hercules offers multiple ways to get started, catering to different user preferences and requirements.
+If you are new to the Python ecosystem and don't know where to begin, dont worry and read the footnotes on understanding the basics.
+
+
+For a quick taste of the solution, you can try the notebook here: 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YiZsXem1POTwkcr17QqflXnihhuSqwM2?usp=sharing)
+- **Note**: Colab might ask you to restart the session as python3.11 and some libs are installed during the installation of testzeus-hercules. Please restart the session if required and continue the execution. Also , we recommend one of the approaches below for getting the full flavor of the solution. 
+
 #### Prerequisites
 
 - Ensure you have **Python 3.11** installed on your system.
@@ -584,45 +622,6 @@ For example: If you would like to run with a "Headful" browser, you can set the 
   ```bash
   export ENABLE_PLAYWRIGHT_TRACING=true
   ```
-
-### Understanding `agents_llm_config-example.json`
-
-- It's a list of configurations of LLMs that you want to provide to the agent.
-
-- Example:
-
-  ```json
-  {
-    "anthropic": {
-		"planner_agent": {
-			"model_name": "claude-3-5-haiku-latest",
-			"model_api_key": "",
-			"model_api_type": "anthropic",
-            "llm_config_params": {
-                "cache_seed": null,
-                "temperature": 0.0,
-                "seed":12345
-            }
-		},
-		"nav_agent": {
-			"model_name": "claude-3-5-haiku-latest",
-			"model_api_key": "",
-			"model_api_type": "anthropic",
-            "llm_config_params": {
-                "cache_seed": null,
-                "temperature": 0.0,
-                "seed":12345
-            }
-		}
-    }
-  }
-  ```
-
-- The key is the name of the spec that is passed in `AGENTS_LLM_CONFIG_FILE_REF_KEY`, whereas the Hercules information is passed in sub-dicts `planner_agent` and `nav_agent`.
-
-- **Note**: This option should be ignored until you are sure what you are doing. Discuss with us while playing around with these options in our Slack communication. Join us at our [Slack](https://join.slack.com/t/testzeuscommunityhq/shared_invite/zt-376oeo99x-3RAWe_C0H7x9zP0rtACcPA)
-
----
 
 
 ## ⚡️ Features
