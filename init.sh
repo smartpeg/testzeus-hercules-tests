@@ -8,4 +8,3 @@ pip3 install --break-system-packages testzeus-hercules playwright ag2[openai] op
 playwright install --with-deps
 
 source .env
-testzeus-hercules
