@@ -1,0 +1,28 @@
+{
+    "user_proxy_agent": [
+        {
+            "content": "Execute the USER TESTING TASK INSTRUCTIONS: \"Feature: Open Google homepage ;next; Scenario:User opens Google homepageUser opens Google homepage ;next;  Given I have a web browser open ;next;  When I navigate to \"https://www.google.com\" ;next;  Then I should see the Google homepage\" \nCURRENT STATE:",
+            "role": "assistant",
+            "name": "user"
+        },
+        {
+            "content": {
+                "plan": "1. Open a web browser.\n2. Navigate to 'https://www.google.com'.\n3. Verify that the Google homepage is displayed.",
+                "next_step": "Open a web browser and confirm that the browser is ready for navigation.",
+                "terminate": "no",
+                "final_response": "",
+                "is_assert": false,
+                "assert_summary": "",
+                "is_passed": false,
+                "target_helper": "browser"
+            },
+            "role": "user",
+            "name": "planner_agent"
+        },
+        {
+            "content": "TASK FOR HELPER: Open a web browser and confirm that the browser is ready for navigation. Current Page: about:blank, Title:  ##target_helper: browser##",
+            "role": "assistant",
+            "name": "user"
+        }
+    ]
+}

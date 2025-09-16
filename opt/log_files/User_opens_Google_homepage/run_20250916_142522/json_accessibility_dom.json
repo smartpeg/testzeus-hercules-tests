@@ -1,0 +1,476 @@
+{
+  "tag": "body",
+  "name": "Chi siamo",
+  "level": 1,
+  "children": [
+    {
+      "tag": "noscript",
+      "name": "<meta content=\"0;url=/?sca_esv=73afc9bb409a06fd&amp;output=search&amp;gbv=1&amp;sei=SlfJaKuQLZuH9u8PlZrXqAE\" http-equiv=\"refresh\"><style>table,div,span,p{display:none}</style><div style=\"display:block\">Se non vieni reindirizzato automaticamente entro alcuni secondi, fai clic <a href=\"/?sca_esv=73afc9bb409a06fd&amp;output=search&amp;gbv=1&amp;sei=SlfJaKuQLZuH9u8PlZrXqAE\">qui</a>.</div>",
+      "level": 2,
+      "children": []
+    },
+    {
+      "tag": "div",
+      "name": "Chi siamo",
+      "level": 2,
+      "children": [
+        {
+          "tag": "div",
+          "role": "navigation",
+          "name": "Chi siamo",
+          "level": 3,
+          "children": [
+            {
+              "md": "1",
+              "tag": "a",
+              "role": "link",
+              "name": "Chi siamo",
+              "level": 4,
+              "children": []
+            },
+            {
+              "md": "2",
+              "tag": "a",
+              "role": "link",
+              "name": "Google Store",
+              "level": 4,
+              "children": []
+            },
+            {
+              "tag": "div",
+              "name": "GmailImmagini",
+              "level": 4,
+              "children": [
+                {
+                  "tag": "div",
+                  "name": "GmailImmagini",
+                  "level": 5,
+                  "children": [
+                    {
+                      "tag": "header",
+                      "role": "none",
+                      "name": "GmailImmagini",
+                      "level": 6,
+                      "children": [
+                        {
+                          "tag": "div",
+                          "name": "GmailImmagini",
+                          "level": 7,
+                          "children": [
+                            {
+                              "tag": "div",
+                              "name": "Gmail",
+                              "level": 8,
+                              "children": [
+                                {
+                                  "md": "3",
+                                  "tag": "a",
+                                  "role": "link",
+                                  "name": "Gmail",
+                                  "level": 9,
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "name": "Immagini",
+                              "level": 8,
+                              "children": [
+                                {
+                                  "md": "4",
+                                  "tag": "a",
+                                  "role": "link",
+                                  "name": "Ricerca di immagini",
+                                  "level": 9,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "level": 7,
+                          "children": [
+                            {
+                              "tag": "div",
+                              "level": 8,
+                              "children": [
+                                {
+                                  "md": "5",
+                                  "tag": "a",
+                                  "role": "button",
+                                  "name": "App Google",
+                                  "level": 9,
+                                  "children": [
+                                    {
+                                      "md": "6",
+                                      "tag": "svg",
+                                      "level": 10,
+                                      "children": [
+                                        {
+                                          "md": "7",
+                                          "tag": "path",
+                                          "level": 11,
+                                          "children": []
+                                        },
+                                        {
+                                          "md": "8",
+                                          "tag": "image",
+                                          "level": 11,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "name": "Accedi",
+                          "level": 7,
+                          "children": [
+                            {
+                              "md": "9",
+                              "tag": "a",
+                              "role": "link",
+                              "name": "Accedi",
+                              "level": 8,
+                              "children": [
+                                {
+                                  "md": "10",
+                                  "tag": "span",
+                                  "name": "Accedi",
+                                  "level": 9,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "level": 3,
+          "children": [
+            {
+              "tag": "div",
+              "level": 4,
+              "children": [
+                {
+                  "tag": "svg",
+                  "role": "img",
+                  "name": "Google",
+                  "level": 5,
+                  "children": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "level": 3,
+          "children": [
+            {
+              "tag": "form",
+              "role": "search",
+              "level": 4,
+              "children": [
+                {
+                  "tag": "div",
+                  "level": 5,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "level": 6,
+                      "children": [
+                        {
+                          "tag": "div",
+                          "level": 7,
+                          "children": [
+                            {
+                              "tag": "div",
+                              "level": 8,
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "level": 9,
+                                  "children": [
+                                    {
+                                      "md": "22",
+                                      "tag": "textarea",
+                                      "role": "combobox",
+                                      "name": "Cerca",
+                                      "title": "Cerca",
+                                      "level": 10,
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "level": 9,
+                                  "children": [
+                                    {
+                                      "md": "23",
+                                      "tag": "div",
+                                      "level": 10,
+                                      "children": []
+                                    },
+                                    {
+                                      "tag": "div",
+                                      "level": 10,
+                                      "children": [
+                                        {
+                                          "md": "29",
+                                          "tag": "div",
+                                          "role": "button",
+                                          "name": "Esegui una ricerca vocale",
+                                          "level": 11,
+                                          "children": []
+                                        },
+                                        {
+                                          "md": "32",
+                                          "tag": "div",
+                                          "role": "button",
+                                          "name": "Ricerca tramite immagine",
+                                          "level": 11,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "level": 7,
+                          "children": [
+                            {
+                              "tag": "center",
+                              "level": 8,
+                              "children": [
+                                {
+                                  "md": "75",
+                                  "tag": "input",
+                                  "role": "button",
+                                  "name": "Cerca con Google",
+                                  "level": 9,
+                                  "children": []
+                                },
+                                {
+                                  "md": "76",
+                                  "tag": "input",
+                                  "role": "button",
+                                  "name": "Mi sento fortunato",
+                                  "level": 9,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "name": "Google offerto in: English",
+          "level": 3,
+          "children": [
+            {
+              "tag": "div",
+              "name": "Google offerto in: English",
+              "level": 4,
+              "children": [
+                {
+                  "tag": "div",
+                  "name": "Google offerto in: English",
+                  "level": 5,
+                  "children": [
+                    {
+                      "md": "81",
+                      "tag": "a",
+                      "role": "link",
+                      "name": "English",
+                      "level": 6,
+                      "children": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "name": "Italia",
+          "level": 3,
+          "children": [
+            {
+              "tag": "div",
+              "role": "contentinfo",
+              "name": "Italia",
+              "level": 4,
+              "children": [
+                {
+                  "tag": "div",
+                  "name": "Italia",
+                  "level": 5,
+                  "children": []
+                },
+                {
+                  "tag": "div",
+                  "name": "Pubblicit\u00e0",
+                  "level": 5,
+                  "children": [
+                    {
+                      "tag": "div",
+                      "name": "Pubblicit\u00e0",
+                      "level": 6,
+                      "children": [
+                        {
+                          "md": "82",
+                          "tag": "a",
+                          "role": "link",
+                          "name": "Pubblicit\u00e0",
+                          "level": 7,
+                          "children": []
+                        },
+                        {
+                          "md": "83",
+                          "tag": "a",
+                          "role": "link",
+                          "name": "Soluzioni aziendali",
+                          "level": 7,
+                          "children": []
+                        },
+                        {
+                          "md": "84",
+                          "tag": "a",
+                          "role": "link",
+                          "name": "Come funziona la Ricerca",
+                          "level": 7,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "name": "Il nostro terzo decennio di azione per il clima",
+                      "level": 6,
+                      "children": [
+                        {
+                          "md": "85",
+                          "tag": "a",
+                          "role": "link",
+                          "name": "Il nostro terzo decennio di azione per il clima",
+                          "level": 7,
+                          "children": [
+                            {
+                              "md": "86",
+                              "tag": "img",
+                              "level": 8,
+                              "children": []
+                            },
+                            {
+                              "md": "87",
+                              "tag": "span",
+                              "name": "Il nostro terzo decennio di azione per il clima",
+                              "level": 8,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "name": "Privacy",
+                      "level": 6,
+                      "children": [
+                        {
+                          "md": "88",
+                          "tag": "a",
+                          "role": "link",
+                          "name": "Privacy",
+                          "level": 7,
+                          "children": []
+                        },
+                        {
+                          "md": "89",
+                          "tag": "a",
+                          "role": "link",
+                          "name": "Termini",
+                          "level": 7,
+                          "children": []
+                        },
+                        {
+                          "tag": "span",
+                          "name": "Impostazioni",
+                          "level": 7,
+                          "children": [
+                            {
+                              "tag": "span",
+                              "name": "Impostazioni",
+                              "level": 8,
+                              "children": [
+                                {
+                                  "tag": "g-popup",
+                                  "name": "Impostazioni",
+                                  "level": 9,
+                                  "children": [
+                                    {
+                                      "md": "90",
+                                      "tag": "div",
+                                      "role": "button",
+                                      "name": "Impostazioni",
+                                      "level": 10,
+                                      "children": [
+                                        {
+                                          "md": "91",
+                                          "tag": "div",
+                                          "name": "Impostazioni",
+                                          "level": 11,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+{
+  "tag": "body",
+  "name": "Chi siamo",
+  "children": [
+    {
+      "tag": "noscript",
+      "name": "<meta content=\"0;url=/?sca_esv=73afc9bb409a06fd&amp;output=search&amp;gbv=1&amp;sei=SlfJaKuQLZuH9u8PlZrXqAE\" http-equiv=\"refresh\"><style>table,div,span,p{display:none}</style><div style=\"display:block\">Se non vieni reindirizzato automaticamente entro alcuni secondi, fai clic <a href=\"/?sca_esv=73afc9bb409a06fd&amp;output=search&amp;gbv=1&amp;sei=SlfJaKuQLZuH9u8PlZrXqAE\">qui</a>.</div>"
+    },
+    {
+      "tag": "div",
+      "name": "Chi siamo",
+      "children": [
+        {
+          "tag": "div",
+          "role": "navigation",
+          "name": "Chi siamo",
+          "children": [
+            {
+              "md": "1",
+              "tag": "a",
+              "role": "link",
+              "name": "Chi siamo"
+            },
+            {
+              "md": "2",
+              "tag": "a",
+              "role": "link",
+              "name": "Google Store"
+            },
+            {
+              "tag": "header",
+              "role": "none",
+              "name": "GmailImmagini",
+              "children": [
+                {
+                  "tag": "div",
+                  "name": "GmailImmagini",
+                  "children": [
+                    {
+                      "md": "3",
+                      "tag": "a",
+                      "role": "link",
+                      "name": "Gmail"
+                    },
+                    {
+                      "tag": "div",
+                      "name": "Immagini",
+                      "children": [
+                        {
+                          "md": "4",
+                          "tag": "a",
+                          "role": "link",
+                          "name": "Ricerca di immagini"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "md": "5",
+                      "tag": "a",
+                      "role": "button",
+                      "name": "App Google",
+                      "children": [
+                        {
+                          "md": "6",
+                          "tag": "svg",
+                          "children": [
+                            {
+                              "md": "7",
+                              "tag": "path"
+                            },
+                            {
+                              "md": "8",
+                              "tag": "image"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "md": "9",
+                  "tag": "a",
+                  "role": "link",
+                  "name": "Accedi",
+                  "children": [
+                    {
+                      "md": "10",
+                      "tag": "span"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "children": [
+            {
+              "tag": "svg",
+              "role": "img",
+              "name": "Google"
+            }
+          ]
+        },
+        {
+          "tag": "form",
+          "role": "search",
+          "children": [
+            {
+              "tag": "div",
+              "children": [
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "children": [
+                        {
+                          "md": "22",
+                          "tag": "textarea",
+                          "role": "combobox",
+                          "name": "Cerca",
+                          "title": "Cerca"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "children": [
+                        {
+                          "md": "23",
+                          "tag": "div"
+                        },
+                        {
+                          "tag": "div",
+                          "children": [
+                            {
+                              "md": "29",
+                              "tag": "div",
+                              "role": "button",
+                              "name": "Esegui una ricerca vocale"
+                            },
+                            {
+                              "md": "32",
+                              "tag": "div",
+                              "role": "button",
+                              "name": "Ricerca tramite immagine"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "center",
+                  "children": [
+                    {
+                      "md": "75",
+                      "tag": "input",
+                      "role": "button",
+                      "name": "Cerca con Google"
+                    },
+                    {
+                      "md": "76",
+                      "tag": "input",
+                      "role": "button",
+                      "name": "Mi sento fortunato"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "name": "Google offerto in: English",
+          "children": [
+            {
+              "md": "81",
+              "tag": "a",
+              "role": "link",
+              "name": "English"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "role": "contentinfo",
+          "name": "Italia",
+          "children": [
+            {
+              "tag": "div",
+              "name": "Italia"
+            },
+            {
+              "tag": "div",
+              "name": "Pubblicit\u00e0",
+              "children": [
+                {
+                  "tag": "div",
+                  "name": "Pubblicit\u00e0",
+                  "children": [
+                    {
+                      "md": "82",
+                      "tag": "a",
+                      "role": "link",
+                      "name": "Pubblicit\u00e0"
+                    },
+                    {
+                      "md": "83",
+                      "tag": "a",
+                      "role": "link",
+                      "name": "Soluzioni aziendali"
+                    },
+                    {
+                      "md": "84",
+                      "tag": "a",
+                      "role": "link",
+                      "name": "Come funziona la Ricerca"
+                    }
+                  ]
+                },
+                {
+                  "md": "85",
+                  "tag": "a",
+                  "role": "link",
+                  "name": "Il nostro terzo decennio di azione per il clima",
+                  "children": [
+                    {
+                      "md": "86",
+                      "tag": "img"
+                    },
+                    {
+                      "md": "87",
+                      "tag": "span"
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "name": "Privacy",
+                  "children": [
+                    {
+                      "md": "88",
+                      "tag": "a",
+                      "role": "link",
+                      "name": "Privacy"
+                    },
+                    {
+                      "md": "89",
+                      "tag": "a",
+                      "role": "link",
+                      "name": "Termini"
+                    },
+                    {
+                      "md": "90",
+                      "tag": "div",
+                      "role": "button",
+                      "name": "Impostazioni",
+                      "children": [
+                        {
+                          "md": "91"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
