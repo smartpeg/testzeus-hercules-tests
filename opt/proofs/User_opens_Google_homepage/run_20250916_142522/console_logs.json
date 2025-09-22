@@ -1,4 +1,0 @@
-{"type": "console", "level": "log", "timestamp": 1758025541.5632262, "text": "Adding a mutation observer for DOM changes", "location": {"url": "", "lineNumber": 0, "columnNumber": 8}}
-{"type": "console", "level": "log", "timestamp": 1758025543.7991025, "text": "Adding a mutation observer for DOM changes", "location": {"url": "", "lineNumber": 0, "columnNumber": 8}}
-{"type": "console", "level": "info", "timestamp": 1758025547.654285, "text": "Autofocus processing was blocked because a document already has a focused element.", "location": {"url": "https://www.google.com/", "lineNumber": 51, "columnNumber": 0}}
-{"type": "console", "level": "log", "timestamp": 1758025548.744529, "text": "Adding a mutation observer for DOM changes", "location": {"url": "", "lineNumber": 0, "columnNumber": 8}}
